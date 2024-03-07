@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b4b806b6c420d8e7285a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TCCreator",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TCCreator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCCreator-Debug-6e0f8dada42c5be9a0ae.json",
+					"name" : "TCCreator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TCCreator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCCreator_autogen-Debug-310fcdd7d92559eeee83.json",
+					"name" : "TCCreator_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soren/build-TCCreator-Desktop_Qt_5_11_1_GCC_64bit-Debug",
+		"source" : "/home/soren/TCCreator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
