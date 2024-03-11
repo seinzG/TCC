@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2c265f64a45503f067bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TCCreator",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TCCreator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCCreator-Debug-d001327cfbcb9819f4ec.json",
+					"name" : "TCCreator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TCCreator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCCreator_autogen-Debug-f465f4281abc8c36e849.json",
+					"name" : "TCCreator_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sangd/Documents/TCC/build-TCCreator-Desktop_Qt_5_11_1_MinGW_32bit-Debug",
+		"source" : "C:/Users/sangd/Documents/TCC/TCCreator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

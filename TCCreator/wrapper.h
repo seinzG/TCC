@@ -12,8 +12,14 @@ public:
     QString createToken();
     // QString getOwners();
     QStringList getSheets();
-    QString createTestID();
+    QString createTestCaseID(QString testSuite);
+    QStringList getTestCaseIDs(QString testSuite);
     QStringList parseResult(QString result);
+    QString Add(QString args);
+    QString Update(QString args);
+    QString Delete(QString args);
+    QString updateHistory(QString args);
+    QString getData(QString testSuite, QString testCaseID);
 };
 
 #endif // WRAPPER_H

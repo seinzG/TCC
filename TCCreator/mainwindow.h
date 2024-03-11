@@ -5,6 +5,8 @@
 #include <QSettings>
 #include <QDir>
 #include "wrapper.h"
+#include <QComboBox>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,15 +22,19 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     bool initialize();
-    // Wrapper* pyW = new Wrapper();
     Wrapper* pyW;
-    // QSettings* settings = new QSettings(QDir::currentPath() + "ini.ini", QSettings::IniFormat);
-    // QSettings settings;
     void changeType();
 private:
     Ui::MainWindow *ui;
     void change2New();
     void change2Update();
     void change2Delete();
+    void updateOrDelete();
+    void changeTestSuite();
+    void changeTestCaseID();
+    void Finished();
+    QComboBox* testCaseID_cb;
+    QLineEdit* testCaseID_line;
+    QString createTestCaseID();
 };
 #endif // MAINWINDOW_H
